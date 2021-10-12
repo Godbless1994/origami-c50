@@ -1,0 +1,40 @@
+h1 {
+    color: yellow;
+    
+
+}
+
+
+    
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+    color: yellow;
+}
+body{
+    background-color: purple;
+}
+.bodyimg{
+    position: relative
+}
+.bodyimg p{
+    color: yellow;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+a:link{
+color:yellow;
+}
+a:visited{
+    color:yellow;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+opacity:0.33;
+}
